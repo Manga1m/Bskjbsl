@@ -1,0 +1,26 @@
+{
+	"name": "protect",
+	"تنصيب بوتات حمايه سورس روز",
+	"logo": "https://telegra.ph//file/a9a83994f60ae5a9b6e0d.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Source-Ze/protect",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
